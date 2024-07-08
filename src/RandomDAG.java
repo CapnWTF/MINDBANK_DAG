@@ -9,7 +9,6 @@ public class RandomDAG {
     public static boolean checkAcyclic(int[][] edge, int ed, boolean[] check, int v)
     {
         int i;
-        boolean value;
 
         // If the current vertex is visited already, then the graph contains a cycle
 
